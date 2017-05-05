@@ -1,4 +1,7 @@
-.contentArea {
+.aboutMe {
+  padding: 10px;
+}
+.contentArea, .connect {
   background-color: #ffffff;
   margin: 20px 0 20px 0;
 }
