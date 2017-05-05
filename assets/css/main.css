@@ -1,0 +1,19 @@
+.contentArea {
+  background-color: #ffffff;
+  margin: 20px 0 20px 0;
+}
+.connect p {
+  color: #4aaaa5;
+}
+
+.navbar-brand {
+  background-color: #4aaaa5;
+  color: #ffffff !important;
+}
+.navbar-brand:hover {
+  background-color: rgba(74,170,165,.64) !important;
+}
+.me {
+  padding-bottom: 20px;
+
+}

@@ -1,0 +1,23 @@
+body {
+  background-image: url('../images/light_honeycomb.png');
+  min-height: 100%;
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+}
+body, p, form, button{
+  color: #777777;
+  font-family:'Inknut Antiqua', 'Arial', 'Helvetica Neue', 'Helvetica', 'sans-serif';
+}
+html {
+  height: 100%
+}
+footer {
+  background-color: #666666;
+  min-height: 100px;
+}
+footer p {
+  color: #ffffff;
+  text-align: center;
+  margin-top: 40px;
+}
