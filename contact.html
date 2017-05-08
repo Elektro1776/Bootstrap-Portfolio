@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Elektric Portfolio</title>
+    <link rel="stylesheet" href="./assets/css/reset.css">
+    <link rel="stylesheet" href="./assets/css/common.css">
+    <link rel="stylesheet" href="./assets/css/font-awesome/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Inknut+Antiqua|Lora|Oswald" rel="stylesheet">
+    <link rel="stylesheet" href="./assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./assets/css/main.css">
+
+    <script
+    src="https://code.jquery.com/jquery-3.2.1.min.js"
+    integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+    crossorigin="anonymous"></script>
+    <script type="text/javascript" src="./assets/js/bootstrap.min.js"></script>
+  </head>
+  <body class="main" style="background-color: #f1f1f1">
+    <nav class="nav navbar-default">
+      <div class="container-fluid">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+           <span class="sr-only">Toggle navigation</span>
+           <span class="icon-bar"></span>
+           <span class="icon-bar"></span>
+           <span class="icon-bar"></span>
+         </button>
+         <a class="navbar-brand" href="#">Austin Reynolds</a>
+        </div>
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+          <ul class="nav navbar-nav pull-right">
+            <li><a href="./index.html">About<span class="sr-only">(current)</span></a></li>
+            <li><a href="./portfolio.html">Portfolio</a></li>
+            <li><a href="./contact.html">Contact</a></li>
+          </ul>
+        </div><!-- /.navbar-collapse -->
+      </div>
+    </nav>
+    <div class="container">
+        <div class="contentArea col-lg-7 col-md-7 col-xs-12">
+            <h2 class="heading">Contact Me</h2>
+          <div class="row" id="aboutContent">
+            <div class="aboutMe">
+              <form>
+                <div class="form-group">
+                  <label>Name</label>
+                  <input type="text" class="form-control" id="formGroupExampleInput" placeholder="Name">
+                </div>
+                <div class="form-group">
+                  <label>Email</label>
+                  <input type="text" class="form-control" id="formGroupExampleInput2" placeholder="Email">
+                </div>
+                <div class="form-group">
+                  <label>message</label>
+                  <input type="text" class="form-control form-message" id="formGroupExampleInput2" placeholder="Awesome message your about to write!">
+                </div>
+                <button id="submitButton" type="button" onclick="alert('Email Sent!')"> Submit</button>
+              </form>
+            </div>
+          </div>
+        </div>
+        <div class=" panel col-lg-3 col-md-4 col-sm-12 col-xs-12 connect">
+          <p>Connect with Me</p>
+          <div id="icons">
+            <a href="https://github.com/Elektro1776" target="_blank"><span class="fa fa-github fa-4x"></span></a>
+            <a href="https://www.linkedin.com/in/austin-reynolds-b4495613b/" target="_blank"><span class="fa fa-linkedin fa-4x"></span></a>
+            <a href="http://stackoverflow.com/users/6866226/austin-reynolds" target="_blank"><span class="fa fa-stack-overflow fa-4x"></span></a>
+          </div>
+        </div>
+    </div>
+    <footer class="footer">
+      <p>@Copyright Austin Reynolds 2017</p>
+    </footer>
+  </body>
+</html>

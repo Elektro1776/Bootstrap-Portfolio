@@ -1,14 +1,51 @@
 .aboutMe {
   padding: 10px;
 }
+.container{
+  flex: 1;
+}
 .contentArea, .connect {
   background-color: #ffffff;
-  margin: 20px 0 20px 0;
+  margin: 20px 20px 20px 0;
+}
+.connect {
+  /*margin-left: 20px;*/
+  text-align: center;
 }
 .connect p {
   color: #4aaaa5;
 }
-
+.fa-github {
+  color: #444;
+}
+.fa-linkedin {
+  color: #0177b5;
+}
+.fa-stack-overflow {
+  color: #f4842c;
+}
+.form-message {
+  height: 100px;
+}
+.gpxvision {
+  position: absolute;
+  top: 75%;
+  height: 30px;
+  color: #fff;
+  background-color: #4aaaa5;
+  width: 100%;
+}
+#icons span{
+    padding: 5px;
+}
+.imageContainer {
+  position: relative;
+  text-align: center;
+  margin: 20px;
+}
+.img-responsive {
+  width: 100%;
+}
 .navbar-brand {
   background-color: #4aaaa5;
   color: #ffffff !important;
@@ -18,5 +55,15 @@
 }
 .me {
   padding-bottom: 20px;
-
+  width: 100%;
+}
+#submitButton {
+  background-color: #4aaaa5;
+  color: #fff;
+  font-size: 20px;
+  width: 150px;
+  height: 50px;
+}
+#submitButton:focus {
+  outline: none;
 }
